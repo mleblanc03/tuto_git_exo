@@ -46,7 +46,7 @@ ui<-fluidPage(
 
 
 server<-function(input, output) {
-  set.seed(20160819)
+  set.seed(20160815)
   
   fun1 <- reactive({
     texto <- paste("aux <-function(x) {return( ",input$expresion1,")}")
